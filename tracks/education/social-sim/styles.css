@@ -1,0 +1,41 @@
+article {
+    margin: 0 5vw;
+}
+
+h5 {
+    font-size: 5em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p, li {
+    font-size: 1.4em;
+    line-height: 2em;
+}
+
+section {
+    margin-bottom: 4em;
+}
+
+img {
+    width: 60vw;
+    display: block;
+    margin: 4em auto;
+}
+
+.logo {
+    width: 36vw;
+    margin-bottom: -2em;
+}
+
+iframe {
+    display: block;
+    margin: 4em auto;
+}
