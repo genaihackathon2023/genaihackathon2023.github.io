@@ -24,7 +24,6 @@
 
     <hr>
 
-
     <article>
 
         <h1>Scene Architecture Design (SAD)</h1>
@@ -99,6 +98,17 @@
 
         <section>
 
+            <h2>Inner Voice</h2>
+
+            <p>One of the main ways we provide AI assistance to the learner is through an "Inner Voice" mechanism. In this, any time the learner needs to speak, they are provided instructions and helpful guidance. They are also prompted on when they should ideally interject into a conversation.</p>
+
+            <img src="./images/inner_voice.png" alt="inner voice" />
+
+
+        </section>
+
+        <section>
+
             <h2>Scene Manager</h2>
 
             <p>While the Scene Generator has set up the overall context of the scenario, this alone is not sufficient to provide a controlled experience to teach the learner a social skill. What we need is more fine-grained articulation about what’s going on at the current moment and the near future of the interaction. This “Short-term Event Context” is what allows our system to guide the interaction in the most appropriate way. For example, if the scene started out with an argument and the learner attempted to resolve the dispute, depending on how the user performed, we can direct the conversation towards a resolution or in the opposite direction by setting the Short-term Event Context accordingly.</p>
@@ -165,6 +175,8 @@
         </section>
 
     </article>
+
+    <hr>
 
     <article>
 
