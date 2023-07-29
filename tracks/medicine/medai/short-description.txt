@@ -1,1 +1,1 @@
-Leveraging the transformative power of generative AI, we're creating an intelligent assistant with a mission to streamline administrative tasks burdening physicians. This innovative approach is committed to combating burnout, with the ultimate objective of enhancing physicians' quality of life and elevating the standards of patient care and outcomes.
+A Smart AI Assistant to Alleviate Physicians' Administrative Load and Combat Burnout.
