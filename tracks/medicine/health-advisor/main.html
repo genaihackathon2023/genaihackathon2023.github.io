@@ -1,1 +1,154 @@
-Health Advisor
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HealthAdvisor: GenAI-based personalized wellbeing app</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <style>
+            body {
+                font-family: 'Roboto', sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f5f5f5;
+                color: #333;
+                line-height: 1.6;
+            }
+
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+
+            h1 {
+                background-color: #1ccdf6;
+                color: white;
+                padding: 10px 0;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            img {
+                display: block;
+                margin: 20px auto;
+                max-width: 100%;
+                height: auto;
+            }
+
+            h2, h3 {
+                color: #ff1e00 ;
+                margin-bottom: 10px;
+            }
+
+            ul {
+                list-style-type: none;
+                padding-left: 20px;
+            }
+
+            ul li {
+                padding: 5px 0;
+            }
+
+            ul li:before {
+                content: "\2022";
+                color: #ff1e00 ;
+                font-weight: bold;
+                display: inline-block;
+                width: 1em;
+                margin-left: -1em;
+            }
+
+            .team-members {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+
+            .team-member {
+                flex: 0 0 calc(50% - 10px);
+                margin-bottom: 20px;
+            }
+            
+            @media (max-width: 600px) {
+                .team-member {
+                    flex: 0 0 100%;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+        <h1>HealthAdvisor: GenAI-based personalized wellbeing app</h1>
+        <img src="./logo.jpg" alt="HealthAdvisor">
+
+        <h2>GOAL</h2>
+        <p>Effective and personalized wellbeing advisor.</p>
+        
+        <h2>PROBLEM</h2>
+        <p>Mental health crisis among the general population.</p>
+        
+        <h2>SOLUTION</h2>
+        <p>Actionable plans based on knowledge of individuals’ physiological states, behavior, context, personal data, and health goals; leveraging GenAI. The app provides encouraging messages and recommendations to connect, exercise, see a doctor, etc.</p>
+        
+        <h2>HYPOTHESIS</h2>
+        <p>GenAI-based personalized plans can outperform existing one-size-fits-all solutions.</p>
+        
+        <h2>PoC Goal</h2>
+        <p>Build a Proof of Concept (PoC) to generate actionable plans via Llama 2 & augmented context, including individual physiological data, other personal data, and health goals.</p>
+        
+        <h2>PoC Details</h2>
+        <ul>
+            <li>Use GenAI for generating suggestions and checking the safety of the Intervention.</li>
+            <li>Leverage Llama 2 and tune the prompt.</li>
+            <li>Generate actionable plans/suggestions based on individual diagnosis and intervention suggestions.</li>
+            <li>Assess the mental state using individual physiological conditions, categorized as High, Medium, Low Stress.</li>
+            <li>Input task-based prompts to GenAI to generate suggestions.</li>
+            <li>Support conversational interaction after the initial suggestion.</li>
+        </ul>
+        
+        <h2>PoC Stretch Goal</h2>
+        <ul>
+            <li>Evaluate the perceived effectiveness of GenAI actionable plans against human-generated best practices.</li>
+            <li>Fine-tune the model based on specific sources (e.g., WebMD).</li>
+            <li>Provide more personalized suggestions.</li>
+            <li>Use GenAI for generating suggestions, checking the safety of Intervention, and assessing individual physiological states.</li>
+            <li>Forecast individual physiological state as part of the assessment.</li>
+        </ul>
+        
+        <h2>Preparation for Hackathon</h2>
+        <ul>
+            <li>Prepared Input Data Set.</li>
+            <li>Designed System.</li>
+            <li>Tested some prompts.</li>
+            <li>Researched current intervention best practices.</li>
+        </ul>
+        
+        <h2>Team Members</h2>
+        <ul>
+            <li>Anshul Madan</li>
+            <li>Eduard Pogorskiy</li>
+            <li>Shifali Sharma</li>
+            <li>Sonish Sivarajkumar</li>
+        </ul>
+
+<!--         <div class="team-members">
+            <div class="team-member">
+                <h3>Anshul Madan</h3>
+            </div>
+            <div class="team-member">
+                <h3>Eduard Pogorskiy</h3>
+            </div>
+            <div class="team-member">
+                <h3>Shifali Sharma</h3>
+            </div>
+            <div class="team-member">
+                <h3>Sonish Sivarajkumar</h3>
+            </div>
+        </div> -->
+          
+    </body>
+
+</html>
