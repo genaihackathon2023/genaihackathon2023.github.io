@@ -1,1 +1,1 @@
-HealthAdvisor is a mobile app that utilizes Generative AI to provide personalized well-being advice, turning insights on research evidence, users' self-reported health goals and physiological states into actionable plans to combat the mental health crisis among working professionals.
+HealthAdvisor provides personalized well-being advice utilizing Generative AI & users' self-reported health goals & physiological states into actionable plans to combat the mental health crisis.
