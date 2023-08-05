@@ -1,1 +1,1 @@
-AI advisor for investors; focus on ESG (Environmental, Social, Governance) investments leveraging GenAI for research & measuring trustworthiness of data sources against greenwashing
+AI advisor for ESG (Environmental, Social, Governance) investments leveraging GenAI for financial research & measuring trustworthiness of data sources against greenwashing
