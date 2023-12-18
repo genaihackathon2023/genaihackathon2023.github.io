@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "ChaTA",
+    "version": "1.0",
+    "permissions": [
+        "storage",
+        "scripting",
+        "activeTab"
+    ],
+    "web_accessible_resources": [
+        {
+          "resources": [ "ChaTA.png" ],
+          "matches": [ "https://*/*" ]
+        }
+    ],
+    "action": {
+        "default_icon": "logo.png",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+    "host_permissions": [
+        "http://localhost:5000/"
+    ]
+}

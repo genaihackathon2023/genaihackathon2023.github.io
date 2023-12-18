@@ -1,0 +1,86 @@
+.chata-popup {
+  width: 400px;
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  border: 2px solid #a6a6a6;
+  padding: 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
+  max-height: 80vh;  
+}
+
+.chata-title {
+  text-align: center;
+  font-weight: bold;
+  background: #0a0;
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.chata-selected-text, .chata-response-text {
+  width: 100%;
+  height: 90px;
+  border: #a6a6a6;
+  border-radius: 5px;
+  background-color: #eee;
+  margin-block: 10px;
+}
+
+.chata-popup-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.chata-button-selected {
+  font-weight: bold;
+}
+
+.chata-ask-button, .chata-model-select {
+  width: 49%;
+}
+
+.chata-ask-button {
+  font-weight: bold;
+  border: none;
+  background-color: #008CBA;
+  color: #fff;
+  border-radius: 4px;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+#student-response-buttons, #ta-response-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.good-button, .bad-button, .edit-button {
+  font-weight: bold;
+  color: #fff;
+  flex: 1;
+}
+
+.good-button {
+  background-color: #4CAF50;
+}
+
+.bad-button {
+  background-color: #f44336;
+}
+
+.edit-button {
+  background-color: #008CBA;
+}
+
